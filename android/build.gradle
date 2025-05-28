@@ -22,9 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    name 'blufi_plugin'
+    namespace 'vn.vconnex.blufi_plugin'
 
-    compileSdkVersion 34
+    compileSdk 34
 
     defaultConfig {
         minSdkVersion 25
